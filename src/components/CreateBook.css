@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.create-book {
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #00d1b2;
+  padding: 1rem 2rem;
+  z-index: 2;
+}
+
+.create-book form {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  flex-direction: column;
+}
+
+form h3 {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+form input {
+  width: 90%;
+  border: none;
+}
